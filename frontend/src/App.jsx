@@ -5,9 +5,7 @@ import TaskList from './components/TaskList';
 import Filters from './components/Filters';
 import Notification from './components/Notification';
 import './App.css';
-
-const API_BASE = 'http://localhost:5000/api/tasks';
-
+const API_BASE = 'https://task-tracker-vfj9.onrender.com/api/tasks';
 export default function App() {
   const [tasks, setTasks] = useState([]);
   const [editTask, setEditTask] = useState(null);
